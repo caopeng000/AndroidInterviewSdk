@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/et_Stair_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:hint="请填写大分类ID" />
+
+    <TextView
+        android:id="@+id/et_Stair_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:hint="请填写大分类名称请填写大分类名称请填写大分类名称请填写大分类名称请填写大分类名称"
+        android:maxWidth="200dp"
+        android:singleLine="true" />
+
+
+</RelativeLayout>

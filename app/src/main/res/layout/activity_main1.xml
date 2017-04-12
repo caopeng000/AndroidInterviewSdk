@@ -15,17 +15,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_Stair_Id"
+        android:enabled="false"
         android:hint="请填写大分类名称" />
+
+    <EditText
+        android:id="@+id/et_Second_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_Stair_Name"
+        android:enabled="false"
+        android:hint="请填写小分类ID" />
+
+    <EditText
+        android:id="@+id/et_Second_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_Second_Id"
+        android:hint="请填写小分类名称" />
 
     <Button
         android:id="@+id/btn_Submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_Stair_Name"
+        android:layout_below="@+id/et_Second_Name"
         android:hint="新增" />
 
-    <ListView
-        android:id="@+id/ls"
+    <Button
+        android:id="@+id/btn_DataSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_Submit" />
